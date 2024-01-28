@@ -1,0 +1,164 @@
+/*main body and universal styles */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+
+body {
+  color: rgb(60, 60, 60);
+  font-weight: 400;
+  font-family: "rubik", sans-serif;
+  line-height: 1;
+  background-color: rgba(250, 128, 52, 0.085);
+}
+
+/*main body and universal styles */
+
+/* navigation styles */
+.navigation {
+  margin-top: 20px;
+  display: flex;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+  border-radius: 50px;
+  background-color: rgb(230, 230, 230);
+}
+.nav-list {
+  display: inline;
+  style: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+.nav-list li {
+  padding: 10px;
+  margin: 6px;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links {
+  text-decoration: none;
+  padding: 10px;
+  padding: 10px, 5px;
+  font-size: 20px;
+  color: rgb(50, 50, 50);
+}
+
+.nav-links:visited {
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: rgb(249, 162, 41);
+  color: black;
+}
+
+/* navigation styles */
+
+/* mainwingies section */
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1400px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 60px;
+}
+.wingie-desc {
+  margin: auto 0;
+}
+.wingie-desc h1 {
+  font-size: 40px;
+  padding: 10px;
+}
+.wingie-desc p {
+  line-height: 1.3;
+  font-size: 25px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.wing-img {
+  width: 100%;
+}
+/* mainwingies section */
+
+/* wingie friends section */
+
+.wingmates {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border-top: 1px solid rgb(50, 50, 50);
+}
+.wing-cont {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1400px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 60px;
+}
+
+.wing-desc {
+  margin: auto 0;
+}
+
+.wing-desc p {
+  font-size: 25px;
+  line-height: 1.2;
+  padding: 10px;
+  text-align: justify;
+}
+
+.wing-imgs {
+  width: 100%;
+}
+
+/* wingie friends section */
+
+/* allen friend section */
+
+.allenfriends {
+  display: flex;
+  background-color: rgba(250, 128, 52, 0.085);
+  border-top: 1px solid rgb(50, 50, 50);
+}
+.allen-cont {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1400px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 60px;
+}
+
+.allen-desc {
+  margin: auto 0;
+}
+
+.allen-desc p {
+  font-size: 25px;
+  line-height: 1.2;
+  padding: 10px;
+  text-align: justify;
+}
+
+.allen-imgs {
+  width: 100%;
+}
+
+/* allen friend section */
