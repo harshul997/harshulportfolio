@@ -1,6 +1,0 @@
-@media (max-width: 1330px) {
-  .navigation {
-    width: 70%;
-    background-color: red;
-  }
-}

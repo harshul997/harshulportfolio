@@ -1,0 +1,114 @@
+/* some general styles */
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* some general styles */
+
+/* navbar */
+.nav-link {
+  color: rgb(150, 150, 150);
+  margin: auto 10px;
+}
+.nav-link:hover {
+  color: rgb(100, 100, 100);
+}
+.navbar {
+  font-size: 1.8rem;
+}
+.navbar-brand {
+  margin: auto 5px;
+}
+.dropdown-menu {
+  font-size: 1.8rem;
+}
+/* navbar */
+
+/* main header */
+
+.img-edit {
+  width: 100%;
+  margin: auto auto;
+}
+.img-cont {
+}
+.text-con p {
+  font-size: 3.5rem;
+  letter-spacing: -0.5px;
+  color: white;
+  margin: auto 0;
+  text-align: justify;
+}
+.text-con h1 {
+  font-size: 6.5rem;
+  color: white;
+}
+
+/* main header */
+
+/* for bio section */
+.card-content-skills {
+  font-size: 2rem;
+  width: 100%;
+}
+.brief-bio {
+  position: relative;
+  border-top: 5px solid grey;
+  border-bottom: 2px solid grey;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  padding-bottom: 2rem;
+  color: rgb(50, 50, 50);
+}
+.titlebriefintro {
+  text-align: center;
+  font-size: 4.5rem;
+  padding: 5px;
+  padding-top: 4rem;
+}
+.contentintro {
+  border: 1px solid black;
+  border-radius: 1rem;
+  text-align: justify;
+  font-size: 2.5rem;
+  line-height: 1.6;
+  margin: 3rem 3rem;
+  padding: 2rem;
+}
+/* brief bio section */
+
+/* skills seciton */
+
+.skills-1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+/* skills section */
+
+/* social media and copyright section */
+
+.social {
+  width: 20%;
+  margin: auto auto;
+}
+
+.iconic {
+  margin-bottom: 0.5rem;
+}
+
+.cpyrht-text {
+  font-size: 1.5rem;
+  color: rgb(150, 150, 150);
+  padding: 5px;
+  margin-bottom: 2rem;
+}
+
+/* social media and copyright section */

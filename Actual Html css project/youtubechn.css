@@ -1,0 +1,66 @@
+/* some general styles */
+
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgba(130, 239, 249, 0.115);
+}
+
+/* some general styles */
+
+/* navbar */
+.nav-link {
+  color: rgb(150, 150, 150);
+  margin: auto 10px;
+}
+.nav-link:hover {
+  color: rgb(100, 100, 100);
+}
+.navbar {
+  font-size: 1.8rem;
+}
+.navbar-brand {
+  margin: auto 5px;
+}
+.dropdown-menu {
+  font-size: 1.8rem;
+}
+/* navbar */
+
+/*carousel */
+.slide {
+  margin-bottom: 5rem;
+}
+/* carousel */
+
+/* section of cards */
+.card-imgs {
+  width: 100%;
+  border: 7px solid black;
+}
+
+.ytcard-cont h1 {
+  font-size: 4.5rem;
+  text-align: center;
+}
+.ytcard-cont {
+  border-radius: 5px;
+  font-size: 2rem;
+  text-align: justify;
+  transition: scale 0.5s;
+}
+
+.bg-set {
+  background-color: white;
+}
+
+.spacing-cols {
+  background-color: rgba(209, 244, 247, 0.009);
+}
+
+.ytcard-cont:hover {
+  scale: 1.05;
+}

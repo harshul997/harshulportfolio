@@ -1,0 +1,30 @@
+@media (max-width: 1400px) {
+  .text-con p {
+    text-align: left;
+  }
+  .main-btns-intro {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1210px) {
+  .text-con h1 {
+    font-size: 5em;
+  }
+  .text-con p {
+    font-size: 3em;
+    text-align: left;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 9px;
+  }
+  .text-con h1 {
+    font-size: 4em;
+  }
+  .text-con p {
+    font-size: 2.5em;
+  }
+}
